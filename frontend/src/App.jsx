@@ -4,7 +4,7 @@ import Results from "./components/Results";
 import Predictor from "./components/Predictor";
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+const API = "https://fiveg-signal-predictor.onrender.com/api";
 
 export default function App() {
   const [stage, setStage]     = useState("intro");

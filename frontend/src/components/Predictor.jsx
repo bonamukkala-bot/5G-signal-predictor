@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000/api";
+const API = "https://fiveg-signal-predictor.onrender.com/api";
 
 function signalLabel(dbm) {
   if (dbm >= -65) return { label:"Excellent", color:"#00ff9d" };
